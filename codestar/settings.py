@@ -31,7 +31,10 @@ SECRET_KEY = 'django-insecure-qxw6(o$=)js7oe)u-=sp2kcgxz#t+o35rk6*-z43w^!s$5d3u0
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-amirakmed-djangoblog-4e31mtzndh7.ws-eu114.gitpod.io', '.herokuapp.com']
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.8000-amirakmed-djangoblog-4e31mtzndh7.ws-eu114.gitpod.io",
+    "https://*.herokuapp.com"
+]
 
 # Application definition
 
