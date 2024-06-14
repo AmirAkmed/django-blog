@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def my_blog(response):
-    return HttpResponse("Hello, Blog (check auto deploy)")
+    return HttpResponse("Hello, Blog (test auto deploy)")
